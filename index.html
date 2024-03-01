@@ -1,30 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MINI STRANICA</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
+    <!-- <link rel="stylesheet" href="style.css" /> -->
+    <!-- <link rel="stylesheet" href="phone.css" /> -->
+  </head>
+  <body>
     <div class="main">
-        <nav>
-            <div class="logo">
-                <img src="images/logo.png" alt="">
-            </div>
-            <div class="nav-links">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="phone.html">Phone</a></li>
-                    <li><a href="#">Accessories</a></li>
-                    <li><a href="#">Cart</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav>
+        <div class="logo">
+          <img src="images/logo.png" alt="" />
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><span id="homePage">Home</span></li>
+            <li><span id="phonePage">Phone</span></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Cart</a></li>
+          </ul>
+        </div>
+      </nav>
 
-        <div class="information">
-            <div class="overlay"></div>
+       <div class="information" id="phoneDetail">
+      <!-- <div class="overlay"></div>
             <img src="images/mobile.png" alt="" class="mobile">
             <h2>SAMSUNG Galaxy A33</h2>
             <div id="circle">
@@ -56,18 +56,186 @@
                         <p>5000mAh, 720Hrs Standby</p>
                     </div>
                 </div>
-            </div>
-        </div>
-
-        <div class="controls">
-            <img src="images/arrow.png" alt="" id="upBtn">
-            <h3>Features</h3>
-            <img src="images/arrow.png" alt="" id="downBtn">
-        </div>
-
+            </div> -->
     </div>
-    
-    <script src="script.js"></script>
 
-</body>
+    <div class="controls">
+        <img src="images/arrow.png" alt="" id="upBtn" />
+        <h3>Features</h3>
+        <img src="images/arrow.png" alt="" id="downBtn" />
+    </div> 
+
+    <div class="information" id="allPhones">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="one">
+              <img src="images/huawei.jpg" alt="" class="mobile" id="3415" />
+              <h2>Huawei Mate 60 Pro</h2>
+              <div class="specification">
+                <ul>
+                  <li class="feature">
+                    <img src="images/camera.png" alt="" />
+                    <div>
+                      <h1>Camera</h1>
+                      <p>50MP, Wide Laser</p>
+                    </div>
+                  </li>
+                  <li class="feature">
+                    <img src="images/processor.png" alt="" />
+                    <div>
+                      <h1>Processor</h1>
+                      <p>256GB 12GB RAM</p>
+                    </div>
+                  </li>
+                  <li class="feature">
+                    <img src="images/display.png" alt="" />
+                    <div>
+                      <h1>Display</h1>
+                      <p>6.82" Screen-to-body Ratio</p>
+                    </div>
+                  </li>
+                  <li class="feature">
+                    <img src="images/battery.png" alt="" />
+                    <div>
+                      <h1>Battery</h1>
+                      <p>Li-Po 5000mAh, non-removable</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="two">
+              <img src="images/samsung24.jpg" alt="" class="mobile" id="7543" />
+              <h2>Samsung Galaxy S24 Ultra</h2>
+              <div class="specification">
+                <ul>
+                  <li class="feature">
+                    <img src="images/camera.png" alt="" />
+                    <div>
+                      <h1>Camera</h1>
+                      <p>200MP, Multi-directional PDAF</p>
+                    </div>
+                  </li>
+                  <li class="feature">
+                    <img src="images/processor.png" alt="" />
+                    <div>
+                      <h1>Processor</h1>
+                      <p>256GB 12GB RAM, UFS 4.0</p>
+                    </div>
+                  </li>
+                  <li class="feature">
+                    <img src="images/display.png" alt="" />
+                    <div>
+                      <h1>Display</h1>
+                      <p>6.8" Dynamic LTPO AMOLED</p>
+                    </div>
+                  </li>
+                  <li class="feature">
+                    <img src="images/battery.png" alt="" />
+                    <div>
+                      <h1>Battery</h1>
+                      <p>Li-Ion 5000mAh, non-removable</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="three">
+              <img
+                src="images/iphone15promax.jpg"
+                alt=""
+                class="mobile"
+                id="6492"
+              />
+              <h2>IPhone 15 Pro Max</h2>
+              <div class="specification">
+                <ul>
+                  <li class="feature">
+                    <img src="images/camera.png" alt="" />
+                    <div>
+                      <h1>Camera</h1>
+                      <p>48MP, dual pixel PDAF</p>
+                    </div>
+                  </li>
+                  <li class="feature">
+                    <img src="images/processor.png" alt="" />
+                    <div>
+                      <h1>Processor</h1>
+                      <p>S256GB 8GB RAM, NVMe</p>
+                    </div>
+                  </li>
+                  <li class="feature">
+                    <img src="images/display.png" alt="" />
+                    <div>
+                      <h1>Display</h1>
+                      <p>6.7" LTPO Super Retina XDR OLED</p>
+                    </div>
+                  </li>
+                  <li class="feature">
+                    <img src="images/battery.png" alt="" />
+                    <div>
+                      <h1>Battery</h1>
+                      <p>4441mAh, non-removable</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="four">
+              <img src="images/mobile.png" alt="" class="mobile" id="2084" />
+              <h2>SAMSUNG Galaxy A33</h2>
+              <div class="specification">
+                <ul>
+                  <li class="feature">
+                    <img src="images/camera.png" alt="" />
+                    <div>
+                      <h1>Camera</h1>
+                      <p>12MP, Wide Angle Lens</p>
+                    </div>
+                  </li>
+                  <li class="feature">
+                    <img src="images/processor.png" alt="" />
+                    <div>
+                      <h1>Processor</h1>
+                      <p>Snapdragon Octa-core 11nm</p>
+                    </div>
+                  </li>
+                  <li class="feature">
+                    <img src="images/display.png" alt="" />
+                    <div>
+                      <h1>Display</h1>
+                      <p>6.5" Mini-Drop Fullscreen</p>
+                    </div>
+                  </li>
+                  <li class="feature">
+                    <img src="images/battery.png" alt="" />
+                    <div>
+                      <h1>Battery</h1>
+                      <p>5000mAh, 720Hrs Standby</p>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+  </body>
 </html>

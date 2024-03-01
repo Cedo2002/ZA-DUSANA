@@ -1,155 +1,158 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
 }
 
 .main {
-    position: relative;
-    overflow: hidden;
-    background: linear-gradient(to right, #9c27b0, #8ecdff);
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to right, #9c27b0, #8ecdff);
 }
 
 nav {
-    width: 80%;
-    position: sticky;
-    margin: 20px auto;
-    z-index: 1;
-    display: flex;
-    align-items: center;
+  width: 80%;
+  position: sticky;
+  margin: 20px auto;
+  z-index: 1;
+  display: flex;
+  align-items: center;
 }
 
 .logo {
-    flex-basis: 20%;
-
+  flex-basis: 20%;
 }
 
 .logo img {
-    width: 150px;
+  width: 150px;
 }
 
 .nav-links {
-    flex: 1;
-    text-align: right;
+  flex: 1;
+  text-align: right;
 }
 
 .nav-links ul li {
-    list-style: none;
-    display: inline-block;
-    margin: 0 20px;
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
 }
 
-.nav-links ul li a {
-    color: #fff;
-    text-decoration: none;
+.nav-links ul li a,
+.nav-links ul li span {
+  cursor: pointer;
+  color: #fff;
+  text-decoration: none;
 }
 
 .information .mobile:hover {
-    cursor: pointer;
-    transform: rotate(360deg);
-    transition: 1.5s;
+  cursor: pointer;
+  transform: rotate(360deg);
+  transition: 1.5s;
 }
 
 .container {
-    position: relative;
-    overflow: hidden;
-    background: linear-gradient(to right, #9c27b0, #8ecdff);
-    height: 50vh;
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(to right, #9c27b0, #8ecdff);
+  height: 50vh;
 }
 
 .container h2 {
-    position: absolute;
-    top: 300px;
-    text-align: center;
-    background-color: #9c27b0;
-    background-image: linear-gradient(to right, #162644, #211f94, #311edd);
-    z-index: 1;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    -moz-text-fill-color: transparent;
+  position: absolute;
+  top: 300px;
+  text-align: center;
+  background-color: #9c27b0;
+  background-image: linear-gradient(to right, #162644, #211f94, #311edd);
+  z-index: 1;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
 }
 
 .row {
-    display: flex;
+  display: flex;
 }
 
 .col-md-6 {
-    width: 1000px;
+  width: 1000px;
 }
 
-.one, .three, .four {
-    display: flex;
-    height: 300px;
-    width: auto;
+.one,
+.three,
+.four {
+  display: flex;
+  height: 300px;
+  width: auto;
 }
 
 .information .container .specification {
-    display: flex;
+  display: flex;
 }
 
 .information .container .specification .feature div {
-    display: block;
-    margin-left: 10px;
+  display: block;
+  margin-left: 10px;
 }
 
 .information .container .specification .feature p {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 .information .container .specification .feature img {
-    width: 50px;
+  width: 50px;
 }
 
 .one {
-    position: relative;
-    left: 50px;
+  position: relative;
+  left: 50px;
 }
 
 ul img {
-    margin-bottom: 30px;
-    padding-left: 20px;
+  margin-bottom: 30px;
+  padding-left: 20px;
 }
 
 .two ul {
-    margin-left: -150px;
+  margin-left: -150px;
 }
 
 .two {
-    position: relative;
-    right: 150px;
-    display: flex;
-    height: 300px;
-    width: auto;
+  position: relative;
+  right: 150px;
+  display: flex;
+  height: 300px;
+  width: auto;
 }
 
 .two h2 {
-    position: absolute;
-    left: 130px;
-    top: 308px;
+  position: absolute;
+  left: 130px;
+  top: 308px;
 }
 
 .two .mobile {
-    height: 350px;
-    position: relative;
-    bottom: 20px;
-    left: -20px;
+  height: 350px;
+  position: relative;
+  bottom: 20px;
+  left: -20px;
 }
 
 .three h2 {
-    position: absolute;
-    left: 65px;
+  position: absolute;
+  left: 65px;
 }
 
 .three ul {
-    margin-left: -60px;
+  margin-left: -60px;
 }
 
 .three {
-    position: relative;
-    right: 20px;
+  position: relative;
+  right: 20px;
 }
 
 .feature {
-    display: flex;
+  display: flex;
 }
